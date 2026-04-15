@@ -149,15 +149,15 @@ document.querySelectorAll(".nav-toggle-btn").forEach(function (btn) {
     var darkVars = {
         background: '#0a0a10', primaryColor: '#1a2535',
         primaryTextColor: '#d1d5db', primaryBorderColor: '#334155',
-        lineColor: '#10b981', secondaryColor: '#161e2e',
+        lineColor: '#2563eb', secondaryColor: '#161e2e',
         tertiaryColor: '#161e2e', edgeLabelBackground: '#0d0d12',
         clusterBkg: '#13131f'
     };
     var lightVars = {
-        background: '#ffffff', primaryColor: '#d1fae5',
-        primaryTextColor: '#1a1a2e', primaryBorderColor: '#6ee7b7',
-        lineColor: '#059669', secondaryColor: '#f0fdf4',
-        tertiaryColor: '#ecfdf5', edgeLabelBackground: '#ffffff',
+        background: '#ffffff', primaryColor: '#dbeafe',
+        primaryTextColor: '#1a1a2e', primaryBorderColor: '#93c5fd',
+        lineColor: '#1d4ed8', secondaryColor: '#eff6ff',
+        tertiaryColor: '#eff6ff', edgeLabelBackground: '#ffffff',
         clusterBkg: '#f8fafc'
     };
 

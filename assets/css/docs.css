@@ -7,10 +7,10 @@
     --text: #e2e2e8;
     --text-secondary: #909099;
     --text-muted: #4a4a5a;
-    --brand: #10b981;
-    --brand-dim: rgba(16, 185, 129, 0.1);
-    --brand-border: rgba(16, 185, 129, 0.25);
-    --accent: #f59e0b;
+    --brand: #2563eb;
+    --brand-dim: rgba(37, 99, 235, 0.1);
+    --brand-border: rgba(37, 99, 235, 0.25);
+    --accent: #f97316;
     --font-display: "Space Grotesk", "Noto Sans SC", sans-serif;
     --font-body: "Noto Sans SC", "Inter", sans-serif;
     --font-mono: "JetBrains Mono", "Fira Code", monospace;
@@ -34,7 +34,7 @@ body {
 }
 
 a { color: var(--brand); text-decoration: none; }
-a:hover { color: #34d399; }
+a:hover { color: #60a5fa; }
 code, pre { font-family: var(--font-mono); }
 
 /* ===== Shell ===== */
@@ -112,19 +112,19 @@ code, pre { font-family: var(--font-mono); }
 .nav-dropdown-trigger {
     all: unset;
     cursor: pointer;
-    color: #34d399;
+    color: #60a5fa;
     font-size: 0.76rem;
     font-family: var(--font-body);
     padding: 4px 9px;
-    border: 1px solid rgba(52, 211, 153, 0.3);
+    border: 1px solid rgba(96, 165, 250, 0.3);
     border-radius: 6px;
     transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
 
 .nav-dropdown-trigger:hover {
     color: var(--text);
-    background: rgba(52, 211, 153, 0.08);
-    border-color: rgba(52, 211, 153, 0.5);
+    background: rgba(96, 165, 250, 0.08);
+    border-color: rgba(96, 165, 250, 0.5);
 }
 
 .nav-dropdown-menu {
@@ -164,8 +164,8 @@ code, pre { font-family: var(--font-mono); }
 }
 
 .nav-dropdown-menu a:hover {
-    background: rgba(16, 185, 129, 0.1);
-    color: #34d399 !important;
+    background: rgba(37, 99, 235, 0.1);
+    color: #60a5fa !important;
 }
 
 .nav-dropdown-menu a span {
@@ -444,7 +444,7 @@ code, pre { font-family: var(--font-mono); }
 .doc-article a {
     color: var(--brand);
     text-decoration: underline;
-    text-decoration-color: rgba(16, 185, 129, 0.25);
+    text-decoration-color: rgba(37, 99, 235, 0.25);
     text-underline-offset: 2px;
     transition: text-decoration-color 0.15s;
 }
@@ -551,7 +551,7 @@ code, pre { font-family: var(--font-mono); }
 .footer-link:hover {
     color: var(--accent);
     border-color: var(--accent);
-    background: rgba(16, 185, 129, 0.06);
+    background: rgba(37, 99, 235, 0.06);
 }
 
 /* ===== Prev / Next Pager ===== */
@@ -651,7 +651,7 @@ code, pre { font-family: var(--font-mono); }
 }
 
 .back-to-top:hover {
-    background: rgba(16, 185, 129, 0.15);
+    background: rgba(37, 99, 235, 0.15);
     border-color: var(--brand);
 }
 
@@ -703,10 +703,10 @@ html[data-theme="light"] {
     --text: #1a1a2e;
     --text-secondary: #4a4a68;
     --text-muted: #8e8ea0;
-    --brand: #059669;
-    --brand-dim: rgba(5, 150, 105, 0.08);
-    --brand-border: rgba(5, 150, 105, 0.2);
-    --accent: #d97706;
+    --brand: #1d4ed8;
+    --brand-dim: rgba(29, 78, 216, 0.08);
+    --brand-border: rgba(29, 78, 216, 0.2);
+    --accent: #ea580c;
 }
 
 html[data-theme="light"] .doc-header {
@@ -764,7 +764,7 @@ html[data-theme="light"] .back-to-top {
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 html[data-theme="light"] .back-to-top:hover {
-    background: rgba(5, 150, 105, 0.1);
+    background: rgba(29, 78, 216, 0.1);
 }
 
 /* ===== Responsive ===== */
@@ -813,10 +813,10 @@ html[data-theme="light"] .back-to-top:hover {
 /* ===== Syntax Highlighting ===== */
 .hljs { background: transparent !important; color: #dde0ec !important; }
 .hljs-keyword, .hljs-selector-tag { color: #c084fc; }
-.hljs-string, .hljs-addition { color: #34d399; }
-.hljs-number, .hljs-literal { color: #f59e0b; }
+.hljs-string, .hljs-addition { color: #60a5fa; }
+.hljs-number, .hljs-literal { color: #f97316; }
 .hljs-comment, .hljs-quote { color: #4a4a5a; font-style: italic; }
-.hljs-title, .hljs-section { color: #06b6d4; }
+.hljs-title, .hljs-section { color: #3b82f6; }
 .hljs-name, .hljs-tag { color: #f472b6; }
 .hljs-attr, .hljs-attribute { color: #fbbf24; }
 .hljs-built_in { color: #38bdf8; }
@@ -844,4 +844,4 @@ html[data-theme="light"] .hljs-type,
 html[data-theme="light"] .hljs-class .hljs-title { color: #6f42c1; }
 html[data-theme="light"] .hljs-deletion { color: #b31d28; }
 
-html[data-theme="light"] a:hover { color: #059669; }
+html[data-theme="light"] a:hover { color: #1d4ed8; }
