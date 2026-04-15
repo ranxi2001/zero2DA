@@ -1,0 +1,27 @@
+title: zero2DA
+description: 从零入门数据分析——SQL、Excel、Python、BI 可视化、商业分析，完整学习路线。
+url: https://onefly.top
+markdown: kramdown
+highlighter: rouge
+baseurl: /zero2DA
+
+plugins:
+  - jekyll-sitemap
+
+include:
+  - learn-da-basic
+  - learn-da-metrics
+  - learn-da-sql
+  - learn-da-excel
+  - learn-da-python
+  - learn-da-bi
+  - learn-da-business
+  - learn-da-interview
+  - learn-da-tools
+  - final-project
+
+exclude:
+  - README.md
+  - requirements.txt
+  - .gitignore
+  - __pycache__
